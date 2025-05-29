@@ -6,26 +6,31 @@
         <style>
             .thumbnail {
                 width: 300px;
-                height: 300px;
-                object-fit: contain;
-                object-position: top;
+                display: block;
             }
+
             .search-bar {
-                border-radius: 16px;
-                border: none;
-                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-                font-family: Arial;
-                width: 450px;
-                font-size: 12px;
-                padding-top: 5px;
-                padding-bottom: 5px;
-                padding-left: 10px;
+
+            }
+
+            .video-title {
+                width: 300px;
             }
         </style>
     </head>
 
     <body>
-        <img class= "thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
-        <input class = "search-bar" type="text" placeholder="Search Google or type a URL">
+        <input class = "search-bar" type="text" 
+        placeholder="Search">
+
+        <img class= "thumbnail" 
+        src="thumbnails/thumbnail-1.webp" 
+        alt="">
+
+        <p class = "video-title">Talking Tech and AI with Google CEO
+             Sundar Pichai!
+        </p>
+        <p class = "video-author">Marques Brownlee</p>
+        <p class ="video-stats">3.4M views &#183; 6 months ago</p>
     </body>
 </html>
