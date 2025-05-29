@@ -8,6 +8,30 @@
                 width: 200px;
                 display: inline-block;
             }
+
+            .image-custom {
+                margin: 0 auto;
+                display: block;
+                object-fit: cover;
+                object-position: top;
+                height: 120px;
+                margin-bottom: 2px;
+            }
+
+            .search-bar {
+                border-radius: 16px;
+                border: none;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+                font-family: Arial;
+                width: 450px;
+                font-size: 11px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                display: block;
+                margin: 0 auto;
+            }
+
         </style>
     </head>
 
@@ -18,5 +42,10 @@
         </p>
         <button class = "yes-button">Yes</button>
         <button class="no-button">No</button>
+
+        <img class="image-custom"src="images.png" alt="google-logo">
+        <input class = "search-bar" 
+        type="text" 
+        placeholder="Search Google or type a URL">
     </body>
 </html>
