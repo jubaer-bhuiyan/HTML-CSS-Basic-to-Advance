@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image and Text Box Practice</title>
+
+        <style>
+            .search-bar {
+                border-radius: 16px;
+                border: none;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+                font-family: Arial;
+                width: 450px;
+                font-size: 11px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+            }
+            .search-bar::placeholder {
+                font-family: "Arial";
+            }
+            
+            .cat-image {
+                width: 30px;
+                height: 30px;
+                border-radius: 90px;
+                object-fit: cover;
+                object-position: right;
+                margin-top: 0px;
+            }
+
+            .tweet-box{
+                border: none;
+                vertical-align: 9.5px;
+                font-family: Arial;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 18px;
+            }
+            .tweet-box:active{
+                border: none;
+            }
+            .tweet-box::placeholder{
+                font-family: "Arial";
+                color: rgb(89, 89, 89);
+            }
+            .tweet-button {
+                vertical-align: 9.5px;
+                margin-left: 30px;
+                background-color: rgb(57, 146, 230);
+                color: white;
+                border: none;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 12px;
+                padding-right: 12px;
+                font-weight: bold;
+                border-radius: 18px;
+                font-size: 12px;
+                font-family: Arial;
+                cursor: pointer;
+            }
+                
+        </style>
+    </head>
+
+    <body>
+        <input class = "search-bar" 
+        type="text" 
+        placeholder="Search Google or type a URL">
+
+        <br><br><br>
+
+        <img class="cat-image" src="images.jpeg" alt="cat image">
+        <input class ="tweet-box" type="text" placeholder="What's happening?">
+        <button class = "tweet-button">Tweet</button>
+    </body>
+</html>
