@@ -79,7 +79,9 @@
                 height: 160px;
                 margin-bottom: 0px;
             }
-            .name {
+            .name-grid {
+                display: grid;
+                grid-template-columns: 1fr;
                 font-family: Arial;
                 font-weight: bold;
                 margin-top: 0px;
@@ -124,12 +126,11 @@
                 margin-bottom: 0px;
             }
             .mutual-friends-picture {
-                display: inline-block;
-                vertical-align: top;
+                margin-left: 8px;
                 }
-            .mutual-friends {
-                vertical-align: top;
-                margin-bottom: 6px;
+            .mutual-friends-grid {
+                display: grid;
+                grid-template-columns: 30px 1fr;
             }
 
             .fb-add-friend-grid {
@@ -152,8 +153,8 @@
             <div class="add-friend-profile">
                 <div class="fb-add-friend">
                     <img class="image-cat" src="images.jpeg" alt="cat-image">
-                    <p class="name">Oliver</p>
-                    <div class="mutual-friends">
+                    <p class="name-grid">Oliver</p>
+                    <div class="mutual-friends-grid">
                         <div class="mutual-friends-picture">
                             <img class="image-mutual-friend" src="abc.jpg" alt="mutual-friend-image">
                         </div>
@@ -167,8 +168,8 @@
             <div class="add-friend-profile">
                 <div class="fb-add-friend">
                     <img class="image-cat" src="images.jpeg" alt="cat-image">
-                    <p class="name">Oliver</p>
-                    <div class="mutual-friends">
+                    <p class="name-grid">Oliver</p>
+                    <div class="mutual-friends-grid">
                         <div class="mutual-friends-picture">
                             <img class="image-mutual-friend" src="abc.jpg" alt="mutual-friend-image">
                         </div>
@@ -182,8 +183,8 @@
             <div class="add-friend-profile">
                 <div class="fb-add-friend">
                     <img class="image-cat" src="images.jpeg" alt="cat-image">
-                    <p class="name">Oliver</p>
-                    <div class="mutual-friends">
+                    <p class="name-grid">Oliver</p>
+                    <div class="mutual-friends-grid">
                         <div class="mutual-friends-picture">
                             <img class="image-mutual-friend" src="abc.jpg" alt="mutual-friend-image">
                         </div>
