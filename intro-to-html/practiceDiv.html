@@ -73,6 +73,7 @@
             .fb-add-friend {
                 box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
                 display: inline-block;
+                margin-right: 10px;
                 
             }
             .image-cat {
@@ -111,6 +112,30 @@
                 margin-bottom: 5px;
                 border-radius: 3px;
             }
+            .add-friend-profile {
+                display: inline-block;
+                margin-left: 20%;
+            }
+
+            .image-mutual-friend {
+                display: inline-block;
+                width: 20px;
+                border-radius: 50%;;
+            }
+            .mutual-friends-number {
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 4px;
+                margin-bottom: 0px;
+            }
+            .mutual-friends-picture {
+                display: inline-block;
+                vertical-align: top;
+                }
+            .mutual-friends {
+                vertical-align: top;
+                margin-bottom: 6px;
+            }
         </style>
     </head>
     <body>
@@ -121,11 +146,57 @@
         <input class ="tweet-box" type="text" placeholder="What's happening?">
         <button class = "tweet-button">Tweet</button>
         </div>
-        <div class="fb-add-friend">
-            <img class="image-cat" src="images.jpeg" alt="cat-image">
-            <p class="name">Oliver</p>
-            <p class="mutual-friends">2 mutual friends</p>
-            <button class="fb-add-friend-button">Add Friend</button>
+        <br><br>
+        <div class="add-friend-profile">
+            <div class="fb-add-friend">
+                <img class="image-cat" src="images.jpeg" alt="cat-image">
+                <p class="name">Oliver</p>
+                <div class="mutual-friends">
+
+                    <div class="mutual-friends-picture">
+                        <img class="image-mutual-friend" src="abc.jpg" alt="mutual-friend-image">
+                    </div>
+
+                    <div class="mutual-friends-number">
+                        <p class="mutual-friends">2 mutual friends</p>
+                    </div>
+
+                </div>
+                <button class="fb-add-friend-button">Add Friend</button>
+            </div>
+
+                <div class="fb-add-friend">
+                    <img class="image-cat" src="images.jpeg" alt="cat-image">
+                    <p class="name">Oliver</p>
+                    <div class="mutual-friends">
+
+                        <div class="mutual-friends-picture">
+                            <img class="image-mutual-friend" src="abc.jpg" alt="mutual-friend-image">
+                        </div>
+    
+                        <div class="mutual-friends-number">
+                            <p class="mutual-friends">2 mutual friends</p>
+                        </div>
+    
+                    </div>
+                    <button class="fb-add-friend-button">Add Friend</button>
+                </div>
+                    <div class="fb-add-friend">
+                        <img class="image-cat" src="images.jpeg" alt="cat-image">
+                        <p class="name">Oliver</p>
+                        <div class="mutual-friends">
+
+                            <div class="mutual-friends-picture">
+                                <img class="image-mutual-friend" src="abc.jpg" alt="mutual-friend-image">
+                            </div>
+        
+                            <div class="mutual-friends-number">
+                                <p class="mutual-friends">2 mutual friends</p>
+                            </div>
+        
+                        </div>
+                        <button class="fb-add-friend-button">Add Friend</button>
+                    </div>
         </div>
     </body>
 </html>
